@@ -41,52 +41,7 @@ The project is intended as a learning and demonstration project. Its score is a 
 
 ## Architecture
 
-```text
-                        User
-                          |
-                          v
-                    Resume + Role
-                          |
-                          v
-                 Input Guardrail
-                          |
-                          v
-                 Python Agent Loop
-                 Amazon Bedrock
-                 Converse API
-                 Nova 2 Lite
-                          |
-             +------------+------------+
-             |                         |
-             v                         v
-      score_resume            get_role_requirements
-             |                         |
-             v                         v
-      Python scoring          Bedrock Knowledge Base
-             |                         |
-             |                         v
-             |                  Vector Retrieval
-             |                         |
-             |                         v
-             |                    Amazon S3
-             |              Job Descriptions
-             |              ATS Guidelines
-             |                         |
-             +------------+------------+
-                          |
-                          v
-                 Tool Results Returned
-                     to the Model
-                          |
-                          v
-                 Generated Analysis
-                          |
-                          v
-                 Output Guardrail
-                          |
-                          v
-                 Final Recommendations
-```
+![Resume Gap Analyzer Architecture](resume_gap_analyzer_architecture.png)
 
 ### Agent implementation
 
