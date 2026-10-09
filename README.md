@@ -218,37 +218,30 @@ Do not commit AWS access keys, session tokens, private resume data, or other cre
 
 ## Configuration
 
-Before running the application, configure the resource identifiers in `agent.py` or through the environment variables supported by your version of the script.
+The application reads its Knowledge Base and Guardrail identifiers from environment variables.
 
-The following values are placeholders. Replace them with the identifiers from your own AWS account.
-
-| Configuration | Placeholder | Description |
+| Configuration | Value | Description |
 |---|---|---|
-| AWS Region | `ap-south-1` | Region used for the application's AWS clients. |
+| AWS Region | `ap-south-1` | Region used by the application. |
 | Model inference profile | `global.amazon.nova-2-lite-v1:0` | Inference profile used by the Converse API. |
-| Knowledge Base ID | `<YOUR_KNOWLEDGE_BASE_ID>` | ID of the existing Bedrock Knowledge Base. |
-| Guardrail ID | `<YOUR_GUARDRAIL_ID>` | ID of the existing Bedrock Guardrail. |
-| Guardrail version | `<YOUR_GUARDRAIL_VERSION>` | Guardrail version to use, such as a numbered version. |
+| Knowledge Base ID | `KB_ID` environment variable | ID of the existing Bedrock Knowledge Base. |
+| Guardrail ID | `GUARDRAIL_ID` environment variable | ID of the existing Bedrock Guardrail. |
+| Guardrail version | `GUARDRAIL_VERSION` environment variable | Guardrail version used by the application. |
 
-For the tested implementation, the Guardrail configuration was read from environment variables.
-
-Example:
+Before running the application, configure these environment variables with resource identifiers from your AWS account:
 
 ```bash
 export AWS_DEFAULT_REGION="ap-south-1"
+export KB_ID="<YOUR_KNOWLEDGE_BASE_ID>"
 export GUARDRAIL_ID="<YOUR_GUARDRAIL_ID>"
 export GUARDRAIL_VERSION="<YOUR_GUARDRAIL_VERSION>"
 ```
 
-Set the Knowledge Base ID wherever it is configured in `agent.py`:
+Use `DRAFT` for `GUARDRAIL_VERSION` only if you intend to invoke the draft version. Otherwise, use the numbered version configured for your Guardrail.
 
-```python
-KB_ID = "<YOUR_KNOWLEDGE_BASE_ID>"
-```
+The application does not automatically load values from `.env`. Export the variables in your shell or configure them through your execution environment.
 
-Use the actual variable names present in your copy of `agent.py` if they differ.
-
-If you run the project in a new AWS account, you must create and configure the Knowledge Base and Guardrail first. The repository does not automatically provision these resources.
+The Knowledge Base and Guardrail must already exist in your AWS account. This repository does not automatically provision these resources.
 
 ### Install dependencies
 
@@ -279,8 +272,8 @@ The command should return the AWS account and identity associated with the activ
 Clone the repository and enter the project directory:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_DIRECTORY>
+git clone https://github.com/ananya-gupta05/resume-gap-analyzer.git
+cd resume-gap-analyzer
 ```
 
 Configure the resource identifiers and AWS credentials as described above.
@@ -306,11 +299,7 @@ The output depends on the documents indexed in the Knowledge Base, the scoring c
 
 You can test retrieval independently of the full agent loop.
 
-First, set the Knowledge Base ID:
-
-```bash
-export KB_ID="<YOUR_KNOWLEDGE_BASE_ID>"
-```
+Make sure `KB_ID` is set in your shell as described in the Configuration section before running the retrieval test.
 
 Run:
 
@@ -331,9 +320,7 @@ If the returned documents are irrelevant, inspect the indexed source documents, 
 
 ## Example Output
 
-The following is a representative result from a successful run of the application.
-
-It is included to demonstrate the output format. It is not a guaranteed result for every resume or AWS account.
+The following is an abridged, representative example based on a successful test run. The wording of the recommendations has been shortened for readability; this is not a verbatim transcript of the application's output. Results vary with the resume, retrieved documents, model response, and AWS configuration.
 
 ### Normal analysis
 
@@ -545,4 +532,4 @@ Deleting a Knowledge Base does not necessarily delete every associated resource.
 
 ## License
 
-Choose a license before distributing this repository. Until a license is added, do not assume that others have permission to reuse, modify, or redistribute the code.
+No license has been added to this repository yet. Unless and until a license is added, the code is not explicitly licensed for reuse, modification, or redistribution.
