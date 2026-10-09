@@ -1,0 +1,49 @@
+JOB TITLE: Cloud Support Associate Intern
+COMPANY: Amazon Web Services (AWS)
+SOURCE TYPE: Adapted job description based on a real AWS internship posting
+SOURCE URL: https://amazon.jobs/en/jobs/10567708/cloud-support-associate-internship-april-2027-start-support-engineering
+
+ROLE OVERVIEW:
+A Cloud Support Associate Intern helps customers troubleshoot cloud infrastructure and application problems. The role involves understanding cloud services, diagnosing technical issues, communicating solutions, and collaborating with support and engineering teams to improve the customer experience.
+
+RESPONSIBILITIES:
+- Learn and work with cloud computing technologies and AWS services.
+- Investigate customer issues involving cloud infrastructure and applications.
+- Apply troubleshooting techniques to identify root causes.
+- Assist customers in understanding application architectures and integration approaches.
+- Work with support engineers and other technical teams to resolve complex issues.
+- Develop scripts, tools, or applications that improve support processes.
+- Document troubleshooting steps, technical findings, and solutions.
+- Participate in projects that improve support efficiency and operational processes.
+- Collaborate with engineering teams to investigate recurring issues.
+- Develop technical knowledge through hands-on training and practical assignments.
+
+REQUIRED OR RELEVANT SKILLS:
+- Fundamentals of cloud computing.
+- Basic understanding of operating systems, particularly Linux or Unix.
+- Familiarity with networking fundamentals, including DNS, HTTP, TCP/IP, and routing.
+- Basic knowledge of databases and storage.
+- Basic scripting knowledge, such as Python, Bash, Perl, or Ruby.
+- Troubleshooting, analytical thinking, and problem-solving skills.
+- Ability to communicate technical information clearly.
+- Willingness to learn new cloud technologies.
+
+PREFERRED SKILLS:
+- AWS Cloud Practitioner or Solutions Architect Associate certification.
+- Familiarity with compute, storage, databases, and networking services.
+- Knowledge of CIDR notation, subnets, DNS, and network fundamentals.
+- Experience working in a Linux or Unix environment.
+- Familiarity with scripting and automation.
+- Exposure to application architecture and cloud troubleshooting.
+
+EDUCATION AND ELIGIBILITY:
+The source posting specifies eligibility requirements for its particular internship program, including qualification and employment-status conditions. Applicants must verify those conditions on the official vacancy page.
+
+PROGRAM DETAILS:
+The referenced posting describes a six-month internship starting in April 2027. Its location-specific eligibility requirements may not apply to applicants in other countries.
+
+IMPORTANT:
+This is an adapted summary of an actual AWS Cloud Support Associate Internship posting. It is not a verbatim reproduction. The referenced vacancy is associated with Amazon Development Centre (South Africa), so do not assume it is an India-based position.
+
+SOURCE:
+https://amazon.jobs/en/jobs/10567708/cloud-support-associate-internship-april-2027-start-support-engineering

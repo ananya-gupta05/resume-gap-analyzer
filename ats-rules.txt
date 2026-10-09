@@ -1,0 +1,7 @@
+ATS RULES FOR TECH RESUMES
+- Use standard section headings: Summary, Skills, Experience, Projects, Education, Certifications.
+- Mirror exact keywords from the job description (e.g. "Amazon EC2", "CI/CD", "Kubernetes").
+- Put quantified results in bullets (e.g. "deploys in under 5 minutes").
+- Use a single-column layout. Avoid tables, text boxes and images for key content.
+- List certifications with the full name and code.
+- Keep to 1 page for freshers.

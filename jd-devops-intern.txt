@@ -1,0 +1,50 @@
+JOB TITLE: Associate DevOps Engineer
+COMPANY: NTT DATA
+LOCATION IN SOURCE POSTING: Bangalore, India
+SOURCE TYPE: Adapted job description based on a real company posting
+SOURCE URL: https://nttlimited.wd3.myworkdayjobs.com/NTT_Careers/job/Bangalore-India/Associate-DevOps-Engineer_R-147043-1
+
+ROLE OVERVIEW:
+An entry-level DevOps Engineer helps development and operations teams deliver, deploy, and maintain software solutions. The role involves supporting application deployment, understanding infrastructure environments, documenting technical requirements, troubleshooting problems, and assisting with production operations.
+
+RESPONSIBILITIES:
+- Work with platform and engineering teams to understand technical requirements.
+- Assist with application installation, deployment, and implementation.
+- Support the preparation of technical documentation and system designs.
+- Help investigate application errors, identify possible causes, and recommend corrective actions.
+- Assist with deploying software solutions into production environments.
+- Support the maintenance and operation of deployed applications.
+- Follow established operational procedures and service-level agreements.
+- Collaborate with developers and infrastructure specialists.
+- Document deployment procedures and operational tasks.
+- Help improve deployment reliability and operational efficiency.
+
+REQUIRED OR RELEVANT SKILLS:
+- Basic understanding of software development and deployment.
+- Familiarity with operating systems, databases, storage, and application environments.
+- Basic programming or scripting knowledge.
+- Problem-solving and analytical skills.
+- Understanding of application deployment and production support.
+- Ability to work with technical documentation and follow established procedures.
+- Communication and teamwork skills.
+
+PREFERRED SKILLS:
+- Knowledge of AWS, Azure, Google Cloud, or another cloud platform.
+- Familiarity with Bash, Python, or another scripting language.
+- Basic knowledge of CI/CD pipelines.
+- Exposure to Git, Docker, and Kubernetes.
+- Familiarity with infrastructure as code and configuration management.
+- Understanding of monitoring, logging, and incident troubleshooting.
+- Relevant cloud or DevOps certifications.
+
+EDUCATION:
+A bachelor's degree or equivalent qualification in Information Technology or a related field is listed in the source posting.
+
+EXPERIENCE:
+The source describes an entry-level role and refers to experience with software development, support, deployment, and working in multi-team environments.
+
+IMPORTANT:
+This description is adapted from NTT DATA's Associate DevOps Engineer posting. It is not a verbatim copy of the original posting, and the referenced vacancy may no longer be open. The source title is Associate DevOps Engineer, not DevOps Intern.
+
+SOURCE:
+https://nttlimited.wd3.myworkdayjobs.com/NTT_Careers/job/Bangalore-India/Associate-DevOps-Engineer_R-147043-1

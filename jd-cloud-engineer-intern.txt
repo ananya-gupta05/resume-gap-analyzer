@@ -1,0 +1,42 @@
+JOB TITLE: Cloud Engineer Intern
+COMPANY: Oracle Cloud Infrastructure (OCI) - Role Reference
+SOURCE TYPE: Adapted job description based on official company career information
+SOURCE URL: https://www.oracle.com/in/careers/opportunities/oracle-cloud-infrastructure/
+
+ROLE OVERVIEW:
+A Cloud Engineer Intern supports the engineering and operation of cloud infrastructure and services. The role involves learning cloud architecture, assisting with infrastructure deployment, troubleshooting technical issues, and understanding the reliability and scalability requirements of cloud-based systems.
+
+RESPONSIBILITIES:
+- Assist with deploying and maintaining cloud infrastructure and services.
+- Learn cloud computing concepts, infrastructure architecture, and resource management.
+- Support troubleshooting of infrastructure and application issues.
+- Work with engineering teams to investigate technical problems and implement solutions.
+- Understand compute, storage, networking, and virtualization concepts.
+- Assist with infrastructure monitoring and performance analysis.
+- Document technical procedures, findings, and troubleshooting steps.
+- Follow established engineering practices for reliability, security, and operational efficiency.
+
+REQUIRED OR RELEVANT SKILLS:
+- Fundamentals of cloud computing.
+- Basic understanding of Linux or another operating system.
+- Familiarity with networking, IP addressing, DNS, and HTTP.
+- Basic scripting or programming knowledge, preferably Python or Bash.
+- Understanding of virtual machines, storage, and compute resources.
+- Problem-solving and troubleshooting skills.
+- Ability to learn new technologies and collaborate with engineering teams.
+
+PREFERRED SKILLS:
+- Exposure to AWS, Oracle Cloud Infrastructure, Azure, or Google Cloud.
+- Familiarity with infrastructure as code, such as Terraform.
+- Basic knowledge of containers and Kubernetes.
+- Exposure to cloud monitoring and logging.
+- Familiarity with Git and version control.
+
+EDUCATION:
+Pursuing a degree in Computer Science, Information Technology, Computer Engineering, or a related technical field.
+
+IMPORTANT:
+This is an adapted, project-oriented description based on the company's cloud infrastructure career information. It is not a verbatim reproduction of a specific Oracle internship vacancy. Check the source website for currently available positions.
+
+SOURCE:
+https://www.oracle.com/in/careers/opportunities/oracle-cloud-infrastructure/
